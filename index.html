@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"
+      defer
+    ></script>
+    <script src="app.js" defer></script>
+
+    <link rel="stylesheet" href="app.css" />
+    <title>CounterApp</title>
+  </head>
+  <body>
+    <header>
+      <h1>CounterApp</h1>
+      <p>A text Counter App</p>
+    </header>
+    <div class="center-main">
+      <button class="btn" id="btnUpload">Upload Text File</button>
+      <button class="btn" id="btnPaste">Paste Copied Text</button>
+      <button class="btn" id = "btnShowResultPage">Show Result</button>
+    </div>
+    <div class="modal hidden">
+          <textarea type="text" class="textInput"></textarea>
+          <button class="btn" id="btnShowResultModal">Show Result</button>
+          <button class="btn close-modal">Cancel</button>
+      </form>
+    </div>
+    <div class="footer">
+      <div id="snackbar"></div>
+      <p>CounterApp Developed by CliffDev</p>
+    </div>
+  </body>
+</html>
